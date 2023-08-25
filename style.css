@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: mulish;
+}
+
+.card {
+    display: grid;
+    list-style:none;
+    background-color: #202024;
+    border-radius: 3px color#323238;
+    border-color: #323238;
+}
+
+main {
+    background-color: #121214;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 900;
+
+    color: #02799D;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+h2, span {
+    color: #E1E1E6;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 600;
+
+    color: #C4C4CC;
+}
+
