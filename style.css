@@ -8,16 +8,19 @@
 }
 
 body {
-    padding: 73px 100px;
+    display: grid;
+    justify-content: center;
+    padding: 70px 100px;
 
     background-color: #121214;
+
 }
 
 main {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 370px);
 
-    row-gap: 42px;
+    row-gap: 40px;
     column-gap: 60px; /* ou só gap: 40px 60px */
 }
 
@@ -25,21 +28,22 @@ main {
     background-color: #202024;
     border-radius: 8px;
     border: 2px solid #323238;
+    overflow: hidden;
 
-    
 }
 
 
-h1 {
+header h1 {
     font-size: 58px;
     font-weight: 900;
 
     color: #02799D;
 }
 
-p {
+header p {
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 63px;
 }
 
 .card h2 {
